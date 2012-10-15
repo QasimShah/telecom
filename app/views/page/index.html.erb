@@ -1,0 +1,59 @@
+
+<div class="container">
+    <% for p in @pages %>
+    
+	<% end %>
+  
+     <div id="myCarousel" class="carousel slide span9 offset1">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item"><%= image_tag("21.jpg") %></div>
+    <div class="item"><%= image_tag("22.jpg") %></div>
+    <div class="item"><%= image_tag("23.jpg") %></div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+<div class="row offset1">
+       
+         <ul class="thumbnails">
+  <li class="span3">
+    <div class="thumbnail">
+      <img src="./index_files/img/of.jpg" alt="">
+      <h3>Thumbnail label</h3>
+      <p><%= p.desc  %></p>
+
+      <a href="#" class="btn btn-inverse">More</a>
+    </div>
+  </li>
+ 
+
+        
+      
+         
+  <li class="span3">
+    <div class="thumbnail">
+      <img src="./index_files/img/sv.jpg" alt="">
+      <h3>Thumbnail label</h3>
+      <p><%= p.desc  %></p>
+      <a href="#" class="btn btn-inverse">More</a>
+    </div>
+  </li>
+ 
+
+      
+      
+      
+  <li class="span3">
+    <div class="thumbnail">
+      <img src="./index_files/img/tn.jpg" alt="">
+      <h3>Thumbnail label</h3>
+      <p><%= p.desc  %></p>
+      <a href="#" class="btn btn-inverse">More</a>
+    </div>
+  </li>
+       
+      </ul> 
+</div>
+
